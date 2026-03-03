@@ -106,7 +106,7 @@ const Portfolio = () => {
   const [roles, setRoles] = useState<Role[]>([]);
   const [expertise, setExpertise] = useState<Expertise[]>([]);
   const [projects, setProjects] = useState<Project[]>([]);
-  const [profileImage, setProfileImage] = useState("https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=format&fit=crop");
+  const [profileImage, setProfileImage] = useState("https://m.media-amazon.com/images/M/MV5BOTU2MTI0NTIyNV5BMl5BanBnXkFtZTcwMTA4Nzc3OA@@._V1_.jpg");
 
   useEffect(() => {
     const unsubRoles = onSnapshot(collection(db, "roles"), (snap) => {
